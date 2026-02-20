@@ -2,8 +2,10 @@
 
 **The baseline security requirement for autonomous AI systems.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Patent Pending](https://img.shields.io/badge/Patent-Pending%20GB2603013.0-amber.svg)](https://intentbound.com)
+[![NIST Filed](https://img.shields.io/badge/NIST-2025--0035%20Filed-green.svg)](https://intentbound.com/mandate-html/)
 
 > *Autonomous action without intent-binding is ungovernable by design.*
 
@@ -139,17 +141,27 @@ See [`examples/mcp_integration.py`](examples/mcp_integration.py) for complete de
 
 ---
 
+## 📋 Status
+
+- **Patent:** Pending · GB2603013.0 · Filed 5th February 2026 · UK IPO
+- **NIST:** Filed · NIST-2025-0035 · Tracking: mls-ubpf-pryy · Filed 19th February 2026
+- **Validation:** Independently validated by xAI Grok · February 2026
+- **Live Demos:** [Healthcare](https://intentbound.com/health-html/) · [Finance](https://intentbound.com/finance-html/) · [Legal](https://intentbound.com/law-html/) · [Manufacturing](https://intentbound.com/manufacture-html/) · [Autonomous Vehicles](https://intentbound.com/autveh-html/)
+
+---
+
 ## 🔗 Resources
 
-- **Website:** [grokipaedia.com/TheArchitecture.html](https://www.grokipaedia.com/TheArchitecture.html)
-- **Specification:** [grokipaedia.com/IntentBoundAuthorization.html](https://www.grokipaedia.com/IntentBoundAuthorization.html)
-- **Contact:** research@grokipaedia.com
+- **Website:** [intentbound.com](https://intentbound.com)
+- **Live Demos:** [intentbound.com/agents-html/](https://intentbound.com/agents-html/)
+- **Global Mandate:** [intentbound.com/mandate-html/](https://intentbound.com/mandate-html/)
+- **Contact:** IBA@intentbound.com
 
 ---
 
 <div align="center">
 
-**Built by [Grokipaedia Research](https://www.grokipaedia.com)**  
-*Building the governance layer for autonomous intelligence*
+**Built by [IntentBound Research](https://intentbound.com)**  
+*The authorization layer for autonomous AI*
 
 </div>
