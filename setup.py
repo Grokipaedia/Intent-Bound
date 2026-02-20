@@ -1,10 +1,10 @@
 """
 Intent-Bound Authorization (IBA) - Setup Configuration
-
-Author: Grokipaedia Research
-License: MIT
+Author: IntentBound Research
+License: Apache 2.0
+Patent Pending: GB2603013.0 · Filed 5th February 2026
+NIST Filed: NIST-2025-0035 · mls-ubpf-pryy
 """
-
 from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -13,23 +13,25 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="iba-agentic-security",
     version="0.1.0",
-    author="Grokipaedia Research",
-    author_email="research@grokipaedia.com",
-    description="Intent-Bound Authorization for autonomous AI systems",
+    author="IntentBound Research",
+    author_email="IBA@intentbound.com",
+    description="Intent-Bound Authorization (IBA) — cryptographic authorization for autonomous AI agents. Patent Pending GB2603013.0. NIST-2025-0035 filed.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Grokipaedia/iba-agentic-security",
+    url="https://github.com/Grokipaedia/Intent-Bound",
     project_urls={
-        "Bug Tracker": "https://github.com/Grokipaedia/iba-agentic-security/issues",
-        "Documentation": "https://www.grokipaedia.com/TheArchitecture.html",
-        "Specification": "https://www.grokipaedia.com/IntentBoundAuthorization.html",
+        "Homepage": "https://intentbound.com",
+        "Documentation": "https://intentbound.com/agents-html/",
+        "Live Demos": "https://intentbound.com",
+        "Bug Tracker": "https://github.com/Grokipaedia/Intent-Bound/issues",
+        "NIST Filing": "https://intentbound.com/mandate-html/",
     },
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "Topic :: Security",
         "Topic :: Software Development :: Libraries :: Python Modules",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
@@ -55,7 +57,7 @@ setup(
             "iba=iba:quick_start",
         ],
     },
-    keywords="intent authorization security ai agents autonomous governance",
+    keywords="intent authorization security ai agents autonomous governance agentic AI safety NIST",
     include_package_data=True,
     zip_safe=False,
 )
